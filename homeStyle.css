@@ -34,6 +34,13 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #EF0012;
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    font-size: 7vw;
+    text-align: center;
+}
+
 #blueButton {
     background-color: #4FB2C0;
     padding: 8px;
@@ -174,13 +181,42 @@ ul {
 }
 
 /*
+ACTIVITEITEN
+*/
+#activiteiten {
+    margin: 15% 0;
+}
+
+#activiteiten a {
+    text-decoration: none;
+
+}
+
+#activiteiten p {
+    color: white;
+    margin: 0 10%;
+    margin-top: 50%;
+
+}
+
+#activiteiten h2 {
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.picture {
+    background-image: url(strand.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+/*
 OVER ONS
 */
-h2 {
-    color: #EF0012;
-    font-family: kon-tiki-aloha-jf, sans-serif;
-    font-size: 7vw;
-    text-align: center;
+#overOns {
+    margin: 10% 0,
 }
 
 #overOns p {
