@@ -42,6 +42,8 @@ h1 {
     border-radius: 25px;
 }
 
+
+
 /*
 MENU
 */
@@ -114,11 +116,32 @@ MENU
     height: 4px;
     background-color: #F5A88D;
     margin: 12% 0;
+    margin-left: 40%;
 }
 
 
 
+/*
+NAV ITEMS
+*/
 
+#navItems a {
+    text-decoration: none;
+    color: white;
+}
+
+#navItems a:hover {
+    color: #C1272D;
+}
+
+ul {
+    list-style: none;
+}
+
+#navItems a {
+    text-decoration: none;
+    color: white;
+}
 
 #navItems .icons::before {
     content: "M";
@@ -150,32 +173,22 @@ MENU
     background-image: url("./Resources/Icons/about_WHITE.svg");
 }
 
-
-
-margin-left: 40%;
-}
-
-
-
-
 /*
-NAV ITEMS
+OVER ONS
 */
-
-#navItems a {
-    text-decoration: none;
-    color: white;
+h2 {
+    color: #EF0012;
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    font-size: 7vw;
+    text-align: center;
 }
 
-#navItems a:hover {
-    color: #C1272D;
+#overOns p {
+    text-align: center;
+    margin: 10% 10%;
 }
 
-ul {
-    list-style: none;
-}
-
-#navItems a {
+#overOns a {
     text-decoration: none;
     color: white;
 }
