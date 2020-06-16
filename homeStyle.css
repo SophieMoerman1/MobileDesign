@@ -226,6 +226,7 @@ OVER ONS
 #overOns a {
     text-decoration: none;
     color: white;
+    font-size: 5vw;
 }
 
 /*
@@ -234,4 +235,14 @@ GROEPSLEDEN
 
 #groepsleden h2 {
     margin: 5% 15%;
+}
+
+#groepsleden a {
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+}
+
+#groepsleden div {
+    margin: 15% 0;
 }
