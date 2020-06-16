@@ -1,0 +1,95 @@
+/*
+GENERAL
+*/
+
+html {
+    margin: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin: 10px 2vw 0;
+}
+
+h1 {
+    color: #EF0012;
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    font-size: 10vw;
+    text-align: center;
+}
+
+/*
+MENU
+*/
+#open {
+    width: 50px;
+    float: left;
+    cursor: pointer;
+
+    margin-top: 8px;
+}
+
+#slideOut {
+    width: 75%;
+    height: 100vh;
+    margin: 0;
+
+    position: fixed;
+    top: 0;
+
+    background-color: white;
+    border-right: 2px solid black;
+    z-index: 2;
+    transition: 0.4s ease-in-out;
+}
+
+.slideOutHide {
+    left: -100%;
+}
+
+.slideOutShow {
+    left: 0;
+}
+
+#close {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+}
+
+#close:before,
+#close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+#close:before {
+    transform: rotate(45deg);
+}
+
+#close:after {
+    transform: rotate(-45deg);
+}
+
+#open #lijn1,
+#open #lijn2,
+#open #lijn3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 12% 0;
+}
