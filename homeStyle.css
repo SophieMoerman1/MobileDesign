@@ -93,3 +93,48 @@ MENU
     background-color: #333;
     margin: 12% 0;
 }
+
+
+
+
+
+#navItems .icons::before {
+    content: "M";
+    font-size: 38px;
+    color: rgba(255, 255, 255, 0);
+    vertical-align: middle;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#navItems .home::before {
+    background-image: url("./Resources/Icons/Home_RED.svg");
+}
+
+#navItems .activiteiten::before {
+    background-image: url("./Resources/Icons/date_BLUE.svg");
+}
+
+#navItems .wordLid::before {
+    background-image: url("./Resources/Icons/members_BLUE.svg");
+}
+
+#navItems .vrijwilliger::before {
+    background-image: url("./Resources/Icons/SignUp_BLUE.svg");
+}
+
+#navItems .overOns::before {
+    background-image: url("./Resources/Icons/about_BLUE.svg");
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+#navItems a {
+    text-decoration: none;
+    color: #0f6385;
+}
