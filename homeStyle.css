@@ -127,29 +127,32 @@ MENU
 }
 
 #navItems .home::before {
-    background-image: url("./Resources/Icons/Home_RED.svg");
+    background-image: url("./Resources/Icons/Home_WHITE.svg");
 }
 
 #navItems .activiteiten::before {
-    background-image: url("./Resources/Icons/date_BLUE.svg");
+    background-image: url("./Resources/Icons/date_WHITE.svg");
 }
 
 #navItems .wordLid::before {
-    background-image: url("./Resources/Icons/members_BLUE.svg");
+    background-image: url("./Resources/Icons/members_WHITE.svg");
 }
 
 #navItems .vrijwilliger::before {
-    background-image: url("./Resources/Icons/SignUp_BLUE.svg");
+    background-image: url("./Resources/Icons/Sign\ Up_WHITE.svg");
 }
 
 #navItems .overOns::before {
-    background-image: url("./Resources/Icons/about_BLUE.svg");
+    background-image: url("./Resources/Icons/about_WHITE.svg");
 }
 
 
 
 margin-left: 40%;
 }
+
+
+
 
 /*
 NAV ITEMS
@@ -170,5 +173,5 @@ ul {
 
 #navItems a {
     text-decoration: none;
-    color: #0f6385;
+    color: white;
 }
