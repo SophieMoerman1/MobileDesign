@@ -10,3 +10,17 @@ html {
     font-family: arponasans, sans-serif;
     scroll-behavior: smooth;
 }
+
+body {
+    margin: 0;
+    font-family: arponasans, sans-serif;
+}
+
+h1 {
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    color: #EF0012;
+}
+
+#act_nav {
+    list-style: none;
+}
