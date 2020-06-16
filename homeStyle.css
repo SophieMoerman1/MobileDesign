@@ -34,6 +34,13 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #EF0012;
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    font-size: 7vw;
+    text-align: center;
+}
+
 #blueButton {
     background-color: #4FB2C0;
     padding: 8px;
@@ -41,6 +48,12 @@ h1 {
     padding-right: 50px;
     border-radius: 25px;
 }
+
+p {
+    text-align: center;
+    margin: 5% 10%;
+}
+
 
 /*
 MENU
@@ -114,11 +127,32 @@ MENU
     height: 4px;
     background-color: #F5A88D;
     margin: 12% 0;
+    margin-left: 40%;
 }
 
 
 
+/*
+NAV ITEMS
+*/
 
+#navItems a {
+    text-decoration: none;
+    color: white;
+}
+
+#navItems a:hover {
+    color: #C1272D;
+}
+
+ul {
+    list-style: none;
+}
+
+#navItems a {
+    text-decoration: none;
+    color: white;
+}
 
 #navItems .icons::before {
     content: "M";
@@ -150,25 +184,57 @@ MENU
     background-image: url("./Resources/Icons/about_WHITE.svg");
 }
 
+/*
+ACTIVITEITEN
+*/
+#activiteiten {
+    margin: 15% 0;
+}
+
+#activiteiten a {
+    text-decoration: none;
+
+}
+
+<<<<<<< HEAD
+=======
+#activiteiten p {
+    text-align: left;
+    color: white;
+    margin-top: 50%;
+
+}
+
+#activiteiten h2 {
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.picture {
+    background-image: url(strand.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+>>>>>>> 0b59c642d33b4845d8ea3a17d8cd4a8480f838c8
+/*
+OVER ONS
+*/
+#overOns {
+    margin: 10% 0,
+}
+
+#overOns a {
+    text-decoration: none;
+    color: white;
+}
 
 /*
-NAV ITEMS
+GROEPSLEDEN
 */
 
-#navItems a {
-    text-decoration: none;
-    color: white;
-}
-
-#navItems a:hover {
-    color: #C1272D;
-}
-
-ul {
-    list-style: none;
-}
-
-#navItems a {
-    text-decoration: none;
-    color: white;
+#groepsleden h2 {
+    margin: 5% 15%;
 }

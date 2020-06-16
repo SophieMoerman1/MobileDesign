@@ -1,0 +1,76 @@
+* {
+    font-family: arponasans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10pt;
+
+
+}
+
+
+h1 {
+    font-family: kon-tiki-aloha-jf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: red;
+    font-size: 2em;
+    margin-left: 33px;
+}
+
+body {
+    margin: 0;
+}
+
+
+.picture {
+    background-image: url(DSC_0111.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 265px;
+
+
+
+}
+
+p {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.margin {
+    margin-left: 47px;
+}
+
+#vrijwilligerfoto {
+    width: 60%;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    background-color: #4fb2c0;
+    border-radius: 36px;
+    padding: 13px 20px;
+    margin-left: 65px;
+    display: block;
+    width: 125px;
+
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+
+
+}
+
+b {
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+    line-height: 0.7em;
+}
