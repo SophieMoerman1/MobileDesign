@@ -136,11 +136,6 @@ MENU
 NAV ITEMS
 */
 
-#navItems a {
-    text-decoration: none;
-    color: white;
-}
-
 #navItems a:hover {
     color: #C1272D;
 }
@@ -152,6 +147,7 @@ ul {
 #navItems a {
     text-decoration: none;
     color: white;
+    font-size: 6vw;
 }
 
 #navItems .icons::before {
