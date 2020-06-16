@@ -49,6 +49,10 @@ h2 {
     border-radius: 25px;
 }
 
+p {
+    text-align: center;
+    margin: 5% 10%;
+}
 
 
 /*
@@ -193,8 +197,8 @@ ACTIVITEITEN
 }
 
 #activiteiten p {
+    text-align: left;
     color: white;
-    margin: 0 10%;
     margin-top: 50%;
 
 }
@@ -219,12 +223,15 @@ OVER ONS
     margin: 10% 0,
 }
 
-#overOns p {
-    text-align: center;
-    margin: 10% 10%;
-}
-
 #overOns a {
     text-decoration: none;
     color: white;
+}
+
+/*
+GROEPSLEDEN
+*/
+
+#groepsleden h2 {
+    margin: 5% 15%;
 }
