@@ -25,6 +25,17 @@ h1 {
     font-family: kon-tiki-aloha-jf, sans-serif;
     font-size: 10vw;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+#ondertitel {
+    color: #EF0012;
+    text-align: center;
+    margin: 0;
+}
+
+#blueButton {
+    background-color: #4FB2C0;
 }
 
 /*
@@ -52,6 +63,11 @@ MENU
     transition: 0.4s ease-in-out;
 }
 
+#menuTitle {
+    color: white;
+    font-size: 11vw;
+}
+
 .slideOutHide {
     left: -100%;
 }
@@ -59,6 +75,7 @@ MENU
 .slideOutShow {
     left: 0;
 }
+
 
 #close {
     position: absolute;
@@ -75,7 +92,7 @@ MENU
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #333;
+    background-color: white;
 }
 
 #close:before {
@@ -91,8 +108,47 @@ MENU
 #open #lijn3 {
     width: 30px;
     height: 4px;
-    background-color: #333;
+    background-color: #F5A88D;
     margin: 12% 0;
+}
+
+
+
+
+
+#navItems .icons::before {
+    content: "M";
+    font-size: 38px;
+    color: rgba(255, 255, 255, 0);
+    vertical-align: middle;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#navItems .home::before {
+    background-image: url("./Resources/Icons/Home_RED.svg");
+}
+
+#navItems .activiteiten::before {
+    background-image: url("./Resources/Icons/date_BLUE.svg");
+}
+
+#navItems .wordLid::before {
+    background-image: url("./Resources/Icons/members_BLUE.svg");
+}
+
+#navItems .vrijwilliger::before {
+    background-image: url("./Resources/Icons/SignUp_BLUE.svg");
+}
+
+#navItems .overOns::before {
+    background-image: url("./Resources/Icons/about_BLUE.svg");
+}
+
+
+
+margin-left: 40%;
 }
 
 /*
@@ -112,7 +168,7 @@ ul {
     list-style: none;
 }
 
-li {
-    font-size: 7vw;
-    margin-top: 20px;
+#navItems a {
+    text-decoration: none;
+    color: #0f6385;
 }
