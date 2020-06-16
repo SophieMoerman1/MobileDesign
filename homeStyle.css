@@ -7,12 +7,13 @@ html {
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arponasans, sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
+    font-family: arponasans, sans-serif;
 }
 
 header {
@@ -24,6 +25,10 @@ h1 {
     font-family: kon-tiki-aloha-jf, sans-serif;
     font-size: 10vw;
     text-align: center;
+}
+
+#blueButton {
+    background-color: #4FB2C0;
 }
 
 /*
@@ -38,17 +43,22 @@ MENU
 }
 
 #slideOut {
-    width: 75%;
+    width: 100%;
     height: 100vh;
     margin: 0;
 
     position: fixed;
     top: 0;
 
-    background-color: white;
-    border-right: 2px solid black;
+    background-color: #F5A88D;
+    color: white;
     z-index: 2;
     transition: 0.4s ease-in-out;
+}
+
+#menuTitle {
+    color: white;
+    font-size: 11vw;
 }
 
 .slideOutHide {
@@ -58,6 +68,7 @@ MENU
 .slideOutShow {
     left: 0;
 }
+
 
 #close {
     position: absolute;
@@ -74,7 +85,7 @@ MENU
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #333;
+    background-color: white;
 }
 
 #close:before {
@@ -90,7 +101,7 @@ MENU
 #open #lijn3 {
     width: 30px;
     height: 4px;
-    background-color: #333;
+    background-color: #F5A88D;
     margin: 12% 0;
 }
 
@@ -129,6 +140,22 @@ MENU
 }
 
 
+
+margin-left: 40%;
+}
+
+/*
+NAV ITEMS
+*/
+
+#navItems a {
+    text-decoration: none;
+    color: white;
+}
+
+#navItems a:hover {
+    color: #C1272D;
+}
 
 ul {
     list-style: none;

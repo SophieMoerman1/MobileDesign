@@ -1,0 +1,12 @@
+/*
+GENERAL
+*/
+
+html {
+    margin: 0;
+}
+
+* {
+    font-family: arponasans, sans-serif;
+    scroll-behavior: smooth;
+}
