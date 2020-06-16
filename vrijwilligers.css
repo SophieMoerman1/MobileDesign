@@ -16,13 +16,16 @@ h1 {
     font-size: 2em;
 }
 
-/*
+
 .picture {
     background-image: url(DSC_0111.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 300px;
-    object-fit: contain;
+
+
 }
-*/
+
 p {
     margin-left: 25px;
     margin-right: 25px;
